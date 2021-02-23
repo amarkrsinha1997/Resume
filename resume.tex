@@ -1,0 +1,145 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+% !TeX spellcheck = en
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=cyan,      
+    urlcolor=cyan,
+}
+ 
+\urlstyle{same}
+
+\usepackage[left=0.75in,top=0.52in,right=0.75in,bottom=0.52in]{geometry} % Document margins
+\usepackage[colorlinks=true, linkcolor=black, urlcolor=black]{hyperref}
+\usepackage{marvosym}
+\usepackage{graphicx}
+
+\name{Amar Kumar Sinha}
+\address{\href{mailto:amarkrsinha1997@gmail.com}{amarkrsinha1997@gmail.com}\ \\
+         \href{https://www.linkedin.com/in/amar-sinha-5530b1158/}{in/amar-sinha-5530b1158} \\
+         \href{https://github.com/amarkrsinha1997/}{github.com/amarkrsinha1997} \\
+         \href{tel:+917002879316}{+91-7002-879-316}}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Summary}
+  \begin{rSummarySection}
+  {
+    \item 3+ years of experience in Front-end and 1-year experience in Back-end Development with hands-on in designing the scalable system with future needs in mind, automated test-suite, security, communicating with stakeholders to deliver the feature, mock base development, CI/CD pipeline.
+  }
+  \end{rSummarySection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	SKILL SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+  \begin{rSummarySection}
+  {
+    \item {\it JavaScript/TypeScript/Python, ReactJS/VueJS/NextJS,} 
+    \item {\it GraphQL, Redux, HTML/CSS/Animation, Web-Components,}
+    \item {\it Flask/Django/NodeJS, MySQL/MongoDB/MariaDB, Docker, Nginx,}
+    \item {\it PWA, Mirco-Frontend, Design Pattern, WebSockets, TDD, Micro-Service, MVC.}
+  }
+  \end{rSummarySection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% WORK SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+  \begin{rWorkSection}{\Large ThoughtWorks}
+                     {Bangalore, India}
+                     {Application Developer}
+                     {June'19 -- Present} {
+    {\it\bf Worked on E-commerce platform:} \href{https://www.sodimac.cl/sodimac-cl/}{Sodimac Chile}, \href{https://www.falabella.com/falabella-cl/}{Falabella Chile},  \href{https://www.sodimac.com.pe/sodimac-pe/}{Sodimac Peru}.
+    \item Built Invoice Generator which generates Invoice for given order for  
+    \item Worked on pages like Order List with filtering options, Order Details, Order Tracking Page, Repurchase of product with different seasonal/promotional offers, Shipping And Cart Page, Registration, Profile Forms,Add/Edit Address Form with Google Map Search API.
+    \item Abstracted Login/Social-Login/Logout/Login-Verifying logic in internal libraries by building Login-SDK and published it on NPM(Private).
+    \item Prevented SQL injection in the Application by writing validations in gateway service.
+    \item Extended Application for an entire new tenant by creating feature toggle and updated the existing components to support feature configuration.
+    \item Increased existing code-bases coverage to 100%, covering all the possible scenarios.
+    \item Review Code and Helped in the designing the Architecture of the product front-end from scratch.
+  }
+  \end{rWorkSection}
+
+  \begin{rWorkSection}{\Large NavGurukul}
+                     {Bangalore, India}
+                     {Software Engineer}
+                     {Apr'18 -- May'20} {
+    {\it\bf Manage whole front-end and back-end for} \href{https://saral.navgurukul.org/}{E-Learning Platform} {\it\bf and} \href{http://admissions.navgurukul.org/}{Admission Management Portal}. 
+    \item Decreased the query time by increasing use of indexes and parallel queries.
+    \item Increased Admission of students by creating a \href{https://github.com/amarkrsinha1997/question-pdf-generator}{PDF generator} that generates different sets of question paper using random questions from DB.
+    \item Built API to extract CSV and build new one's, process marks based on answers of students.
+    \item Integrated Google Sheet with Application to update the real-time data of students.
+    \item Reduced duplication by abstracting code into functions, components and HOC.
+    \item Decrease the UI load time by converting Application into SSR using NextJS.
+  }
+  \end{rWorkSection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+  \begin{rProjectSection}
+    \item \textbf {AtomicDesign} -- Login form built using Atomic Design, StoryBook.
+    \href{https://github.com/amarkrsinha1997/atomic-design}{React Repo}
+    \item \textbf {ReactGram} -- React App built using MVC pattern, TDD.
+    \href{https://github.com/amarkrsinha1997/reactgram}{React, RTL}
+    \item \textbf {File transfer utility} -- Secure file transfer utility built using web-sockets. \href{https://github.com/amarkrsinha1997/secure-filetransfer}{Sockets, Flask}
+    \item \textbf {Examination Platform} -- Open Source Project for taking online MCQ Exams. \href{https://github.com/amarkrsinha1997/MCQ-Testing-Platform}{Flask}
+    \item \textbf {Decision Tree, ML} -- ML program to build decision tree \href{https://github.com/amarkrsinha1997/ml-university-exercise}{Numpy}
+    \item \textbf {Live Scrapper} -- Live tennis tournament scrapper. \href{https://github.com/amarkrsinha1997/tennis-live-data-scrapper}{Selenium}
+  \end{rProjectSection}
+
+%   \begin{rBlurbSection}
+%     \item {\em Open-source contributions:}
+%       I am an active OSS contributor. My \href{http://bit.ly/2kdr9Ui}{\textbf{Merged PR's}} and \href{http://bit.ly/2kxjvV9}{\textbf{open PR's}}.
+%   \end{rBlurbSection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Certificate Section
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Certificates}
+%   \begin{rProjectSection}
+%     \item \textbf {Certified Kubernetes Administrator (CKA)} -- \href{https://www.youracclaim.com/badges/e93b0ba2-51ea-41b3-82ba-10cf4d67ac70}{Validity: December 2020 to December 2023}.  
+%   \end{rProjectSection}
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Talks Section
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Talks}
+%   \begin{rProjectSection}
+%     \item \textbf {The Linux Foundation, Open Source Summit, Lyon} -- Gave a talk on my Open Mainframe project. Refer \href{https://user-images.githubusercontent.com/24803604/68012174-99a5a680-fc89-11e9-8c8e-800e68b8c231.jpeg}{Image} and \href{https://drive.google.com/file/d/1z2dhNwudUs8BYJRzIXL70UH7htLJasf0/view}{Slides}
+%   \end{rProjectSection}
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Education}
+%   \begin{rEducationSection}{International Institute of Information Technology, Bhubaneswar}
+%                           {Aug '16 -- June '20}
+%                           {Bachelor of Technology in Computer Science and Engineering (6.85/10)}
+%   \end{rEducationSection}
+% \end{rSection}
+
+\end{document}
